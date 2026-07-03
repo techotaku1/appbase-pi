@@ -18,6 +18,14 @@
     "meta_description": "Next js Boilerplate es el código inicial perfecto para tu proyecto. Crea tu aplicación React con el framework Next.js.",
     "sponsors_title": "Patrocinadores"
   },
+  "IndexPage": {
+    "meta_title": "Reportes de transporte de carga",
+    "meta_description": "Registra cargas, controla el valor del flete y revisa los balances mensuales de tu operación de transporte.",
+    "title": "Reportes de transporte de carga",
+    "description": "Registra cargas, controla el valor del flete y revisa los balances mensuales en un solo lugar.",
+    "sign_in_cta": "Iniciar sesión",
+    "sign_up_cta": "Registrarse"
+  },
   "Counter": {
     "meta_title": "Contador",
     "meta_description": "Un ejemplo de operación de base de datos",
@@ -90,10 +98,40 @@
     "meta_description": "Crea una cuenta fácilmente con nuestro proceso de registro intuitivo."
   },
   "Dashboard": {
-    "meta_title": "Panel",
+    "meta_title": "Reportes de carga",
     "hello_message": "¡Hola {email}!",
     "alternative_message": "¿Necesitas funciones avanzadas? Multi-tenancy y equipos, roles y permisos, Shadcn UI, tipado de extremo a extremo con oRPC, pagos con Stripe y modo claro / oscuro. Prueba <url></url>.",
     "max_message": "O, ¿necesitas una stack de autenticación autoalojada (Better Auth)? Prueba <url></url>."
+  },
+  "ReportsBoard": {
+    "field_plate": "Placa",
+    "field_plate_other": "Otra",
+    "field_plate_other_label": "Ingresar placa",
+    "field_date": "Fecha",
+    "field_load_number": "Número de carga",
+    "field_company": "Empresa",
+    "field_driver": "Conductor",
+    "field_note": "Novedad",
+    "field_freight_value": "Valor del flete",
+    "error_required": "Este campo es obligatorio",
+    "error_freight_value_positive": "El valor del flete debe ser un número positivo",
+    "add_report": "Agregar reporte",
+    "column_plate": "Placa",
+    "column_date": "Fecha",
+    "column_load_number": "Número de carga",
+    "column_company": "Empresa",
+    "column_driver": "Conductor",
+    "column_note": "Novedad",
+    "column_freight_value": "Valor del flete",
+    "delete_report": "Eliminar",
+    "empty_state": "Aún no hay reportes para este período.",
+    "month_filter_label": "Mes",
+    "month_filter_all": "Todos los meses",
+    "balance_month_total": "Total del mes",
+    "balance_month_count": "Cargas este mes",
+    "balance_overall_total": "Balance general",
+    "balance_per_plate": "Subtotal por placa",
+    "column_actions": "Acciones"
   },
   "UserProfile": {
     "meta_title": "Perfil de usuario"

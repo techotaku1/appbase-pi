@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Hello } from '@/components/Hello';
+import { ReportsBoard } from '@/components/reports/ReportsBoard';
 
 type DashboardPageProps = {
   params: Promise<{ locale: string }>;
@@ -23,8 +23,8 @@ export default async function DashboardPage(props: DashboardPageProps) {
   setRequestLocale(locale);
 
   return (
-    <div className="py-5 [&_p]:my-6">
-      <Hello />
+    <div className="py-5">
+      <ReportsBoard />
     </div>
   );
 }

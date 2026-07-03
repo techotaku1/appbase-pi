@@ -18,6 +18,14 @@
     "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
     "sponsors_title": "Sponsors"
   },
+  "IndexPage": {
+    "meta_title": "Cargo transport reports",
+    "meta_description": "Track cargo loads, freight values, and monthly balances for your transport operation.",
+    "title": "Cargo transport reports",
+    "description": "Record loads, track freight values, and review monthly balances in one place.",
+    "sign_in_cta": "Sign in",
+    "sign_up_cta": "Sign up"
+  },
   "Counter": {
     "meta_title": "Counter",
     "meta_description": "An example of DB operation",
@@ -90,10 +98,40 @@
     "meta_description": "Effortlessly create an account through our intuitive sign-up process."
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
+    "meta_title": "Cargo reports",
     "hello_message": "Hello {email}!",
     "alternative_message": "Need advanced features? Multi-tenancy & Teams, Roles & Permissions, Shadcn UI, End-to-End Typesafety with oRPC, Stripe Payment, Light / Dark mode. Try <url></url>.",
     "max_message": "Or, need a Self-hosted auth stack (Better Auth)? Try <url></url>."
+  },
+  "ReportsBoard": {
+    "field_plate": "Plate",
+    "field_plate_other": "Other",
+    "field_plate_other_label": "Enter plate",
+    "field_date": "Date",
+    "field_load_number": "Load number",
+    "field_company": "Company",
+    "field_driver": "Driver",
+    "field_note": "Note",
+    "field_freight_value": "Freight value",
+    "error_required": "This field is required",
+    "error_freight_value_positive": "Freight value must be a positive number",
+    "add_report": "Add report",
+    "column_plate": "Plate",
+    "column_date": "Date",
+    "column_load_number": "Load number",
+    "column_company": "Company",
+    "column_driver": "Driver",
+    "column_note": "Note",
+    "column_freight_value": "Freight value",
+    "delete_report": "Delete",
+    "empty_state": "No reports for this period yet.",
+    "month_filter_label": "Month",
+    "month_filter_all": "All months",
+    "balance_month_total": "Month total",
+    "balance_month_count": "Loads this month",
+    "balance_overall_total": "Overall balance",
+    "balance_per_plate": "Per-plate subtotal",
+    "column_actions": "Actions"
   },
   "UserProfile": {
     "meta_title": "User Profile"
